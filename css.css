@@ -1,0 +1,113 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(kld.jpg) no-repeat;
+	background-size: cover;
+}
+
+.register-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.register-box h1 {
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.usernamebox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #4caf50;
+}
+
+.usernamebox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.usernamebox input {
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+.emailbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #4caf50;
+}
+
+.emailbox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.emailbox input {
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+.passwordbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #4caf50;
+}
+
+.passwordbox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.passwordbox input {
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+.btn {
+	width: 100%;
+	background: none;
+	border: 2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
