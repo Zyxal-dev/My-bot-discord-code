@@ -1,0 +1,7 @@
+requests==2.27.1
+colorama==0.4.4
+
+PyAutoGUI~=0.9.53
+keyboard~=0.13.5
+option~=2.1.0
+phonenumbers~=8.12.50
