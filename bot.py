@@ -23,7 +23,7 @@ except ImportError:
 ascii_banner = pyfiglet.figlet_format("By Zyxal")
 print(ascii_banner)
 
-channelIDS = 1015684903435776082
+channelIDS = "here your channelIDS"
 
 client = commands.Bot(command_prefix = '.', intents = discord.Intents.all(), case_insensitive=True)
 client.remove_command("help")
@@ -62,12 +62,12 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
 	print(f"{member} has joined!")
-	await client.get_channel(1015684903435776082).send("Добро пожаловать в "+"***{}***, Прочитайте правила сервера в канале ruls".format(member.guild.name)+" "+"{}".format(member.mention))
+	await client.get_channel("here your channelIDS").send("Добро пожаловать в "+"***{}***, Прочитайте правила сервера в канале ruls".format(member.guild.name)+" "+"{}".format(member.mention))
 
 @client.event
 async def on_member_remove(member):
 	print(f"{member} leave the server!")
-	await client.get_channel(1015684903435776082).send("Вышёл из сервера "+"***{}***".format(member.guild.name)+" "+"{}".format(member.mention))
+	await client.get_channel("here your channelIDS").send("Вышёл из сервера "+"***{}***".format(member.guild.name)+" "+"{}".format(member.mention))
 
 
 #@client.event
